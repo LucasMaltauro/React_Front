@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Index extends React.Component {
+class Login extends React.Component {
     render() {
         return (
             <div>
@@ -35,7 +35,7 @@ class Index extends React.Component {
                                     <a href="forgot-password.html" class="signup-image-link">Forgot Password?</a>
                                     <div class="social-login">
                                         <span class="social-label">New here?  </span>
-                                        <a href="signup.html" class="signup-image-link">Create an account</a>
+                                        <a href="sign-up" class="signup-image-link">Create an account</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,4 +46,4 @@ class Index extends React.Component {
         )
     }
 }
-export default Index
+export default Login
