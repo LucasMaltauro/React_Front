@@ -5,7 +5,7 @@ class ErroReport extends React.Component {
     return (
       <div className="layout layout-nav-top">
         <div className="navbar navbar-expand-lg sticky-top">
-          <a className="navbar-brand" href="home.html">
+          <a className="navbar-brand" href="home">
             <img
               alt="Logo"
               src="assets\\img\\cardBe.png"
@@ -23,13 +23,13 @@ class ErroReport extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav nav-fill" role="tablist">
-                <a className="nav-link" href="Home.html">
+                <a className="nav-link" href="home">
                   Home
                 </a>
-                <a className="nav-link active" href="error-report.html">
+                <a className="nav-link active" href="error-report">
                   Error Report
                 </a>
-                <a className="nav-link" href="about.html">
+                <a className="nav-link" href="about">
                   About
                 </a>
               </li>
@@ -81,7 +81,7 @@ class ErroReport extends React.Component {
                   Add New
                 </button>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="create-board.html">
+                  <a className="dropdown-item" href="create-board">
                     Board
                   </a>
                   <a
@@ -109,11 +109,11 @@ class ErroReport extends React.Component {
                     />
                   </a>
                   <div className="dropdown-menu dropdown-menu-right">
-                    <a href="account-settings.html" className="dropdown-item">
+                    <a href="account-settings" className="dropdown-item">
                       Account Settings
                     </a>
                     <a
-                      href="index.html"
+                      href="/"
                       className="dropdown-item"
                       style={{
                         color: "rgb(219, 41, 41)"
@@ -530,7 +530,7 @@ class ErroReport extends React.Component {
           </div>
         </form>
         <div className="main-container">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-11 col-xl-10">
                 <div className="page-header">

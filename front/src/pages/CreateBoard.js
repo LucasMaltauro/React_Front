@@ -96,14 +96,14 @@ class CreateBoard extends React.Component {
               <div className="d-none d-lg-block">
                 <div className="dropdown">
                   <a
-                    href="#"
+                    href="a"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     <img
-                      alt="Image"
+                      alt=""
                       src="assets\\img\\avatar-male-4.jpg"
                       className="avatar"
                     />
@@ -522,7 +522,7 @@ class CreateBoard extends React.Component {
               </div>
               {}
               <div className="modal-footer">
-                <button role="button" className="btn btn-primary" type="submit">
+                <button className="btn btn-primary" type="submit">
                   Done
                 </button>
               </div>
@@ -530,19 +530,16 @@ class CreateBoard extends React.Component {
           </div>
         </form>
         <div className="main-container">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-xl-10 col-lg-11">
-                <form>
                   <div className="form-group">
-                    <label
-                      htmlFor="exampleInputEmail1"
-                      style={{
-                        color: "#D7E868"
-                      }}
-                    >
-                      TITLE
-                    </label>
+                  <p 
+                    style={{
+                      color: "#D7E868"
+                    }}
+                    >TITLE
+                    </p>
                     <input
                       type="email"
                       className="form-control"
@@ -554,17 +551,15 @@ class CreateBoard extends React.Component {
                       }}
                     />
                   </div>
+                  <form>
                   <div className="form-group">
-                    <label
-                      htmlFor="exampleInputEmail1"
-                      style={{
-                        color: "#D7E868"
-                      }}
-                    >
-                      DESCRIPTION
-                    </label>
+                  <p 
+                    style={{
+                      color: "#D7E868"
+                    }}
+                    >DESCRIPTION
+                    </p>
                     <textarea
-                      placeholder="Tell us a little about yourself"
                       name="profile-bio"
                       className="form-control"
                       rows={4}
@@ -576,19 +571,18 @@ class CreateBoard extends React.Component {
                     />
                   </div>
                 </form>
-                <label
-                  htmlFor="exampleInputEmail1"
-                  style={{
-                    color: "#D7E868"
-                  }}
-                >
-                  BACKGROUND
-                </label>
+                <p 
+                    style={{
+                      color: "#D7E868"
+                    }}
+                    >BACKGROUND
+                    </p>
+    
                 <div className="row">
                   <div className="col-xl-4 col-6">
                     <div className="card mb-3">
                       <a
-                        href="#"
+                        href="a"
                         data-toggle="modal"
                         data-target="#activity-modal"
                       >
@@ -603,7 +597,7 @@ class CreateBoard extends React.Component {
                   <div className="col-xl-4 col-6">
                     <div className="card mb-3">
                       <a
-                        href="#"
+                        href="a"
                         data-toggle="modal"
                         data-target="#avatar-modal"
                       >
@@ -618,7 +612,7 @@ class CreateBoard extends React.Component {
                   <div className="col-xl-4 col-6">
                     <div className="card mb-3">
                       <a
-                        href="#"
+                        href="a"
                         data-toggle="modal"
                         data-target="#avatar-list-modal"
                       >
@@ -636,19 +630,14 @@ class CreateBoard extends React.Component {
                         backgroundColor: "#A5D5AB"
                       }}
                     >
-                      <a
-                        href="board.html"
-                        type="submit"
-                        name="signin"
-                        id="signin"
-                        className="form-submit"
-                        style={{
-                          backgroundColor: "#A5D5AB",
-                          color: "#393B39"
-                        }}
-                      >
-                        CREATE
-                      </a>
+                      <p 
+                      href="board"
+                    style={{
+                      color: "#393B39"
+                    }}
+                    
+                    >CREATE
+                    </p>
                     </button>
                   </div>
                 </div>

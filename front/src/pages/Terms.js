@@ -5,7 +5,7 @@ class Terms extends React.Component {
     return (
       <div className="layout layout-nav-top">
         <div className="navbar navbar-expand-lg sticky-top">
-          <a className="navbar-brand" href="signup.html">
+          <a className="navbar-brand" href="signup">
             <img
               alt="Logo"
               src="assets\\img\\cardBe.png"
@@ -23,7 +23,7 @@ class Terms extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav nav-fill" role="tablist">
-                <a className="nav-link" href="signup.html">
+                <a className="nav-link" href="signup">
                   Return
                 </a>
               </li>

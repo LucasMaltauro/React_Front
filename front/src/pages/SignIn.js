@@ -57,7 +57,7 @@ class SignIn extends React.Component {
                   </div>
                   <div className="form-group form-button">
                     <a
-                      href="home.html"
+                      href="home"
                       type="submit"
                       name="signin"
                       id="signin"
@@ -67,12 +67,12 @@ class SignIn extends React.Component {
                     </a>
                   </div>
                 </form>
-                <a href="forgot-password.html" className="signup-image-link">
+                <a href="forgot-password" className="signup-image-link">
                   Forgot Password?
                 </a>
                 <div className="social-login">
                   <span className="social-label">New here?</span>
-                  <a href="signup.html" className="signup-image-link">
+                  <a href="signup" className="signup-image-link">
                     Create an account
                   </a>
                 </div>

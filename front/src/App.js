@@ -25,7 +25,7 @@ function App() {
                 <Route path='/error-report' component={ErroReport}/>
                 <Route path='/forgot-password' component={ForgotPassword}/>
                 <Route path='/home' component={Home}/>
-                <Route path='/sing-up' component={SignUp}/>
+                <Route path='/signup' component={SignUp}/>
                 <Route path='/terms' component={Terms}/>
             </Switch>
         </Router>

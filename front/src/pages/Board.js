@@ -537,7 +537,7 @@ class Board extends React.Component {
           <div className="main-container">
             <div className="breadcrumb-bar navbar bg-verde-claro sticky-top">
               <nav aria-label="breadcrumb">
-                <ol className="breadcrumb"></ol>
+                
               </nav>
               <div className="dropdown">
                 <button
@@ -761,7 +761,10 @@ class Board extends React.Component {
                       </div>
                     </div>
                     <div className="card-list-body">
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -799,7 +802,10 @@ class Board extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -846,7 +852,7 @@ class Board extends React.Component {
                               </a>
                             </li>
                             <li>
-                              <a href="#" data-toggle="tooltip" title="Ravi">
+                              <a href="a" data-toggle="tooltip" title="Ravi">
                                 <img
                                   alt="Ravi Singh"
                                   className="avatar"
@@ -855,18 +861,27 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>-/-</span>
                             </div>
-                            <span className="text-small">Unscheduled</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Unscheduled</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -905,7 +920,10 @@ class Board extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -1000,7 +1018,10 @@ class Board extends React.Component {
                       </div>
                     </div>
                     <div className="card-list-body">
-                      <div className="card card-kanban">
+                    <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="progress">
                           <div
                             className="progress-bar bg-success"
@@ -1077,18 +1098,27 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>1/8</span>
                             </div>
-                            <span className="text-small">Due 10 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 10 days</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -1148,18 +1178,27 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>0/5</span>
                             </div>
-                            <span className="text-small">Due 12 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 12 days</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -1190,18 +1229,27 @@ class Board extends React.Component {
                               <h6>Illustrations</h6>
                             </a>
                           </div>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>0/6</span>
                             </div>
-                            <span className="text-small">Due 12 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 12 days</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="card-body">
                           <div className="dropdown card-options">
                             <button
@@ -1301,14 +1349,20 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>0/18</span>
                             </div>
-                            <span className="text-small">Due 16 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 16 days</span>
                           </div>
                         </div>
                       </div>
@@ -1364,7 +1418,10 @@ class Board extends React.Component {
                       </div>
                     </div>
                     <div className="card-list-body">
-                      <div className="card card-kanban">
+                    <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="progress">
                           <div
                             className="progress-bar bg-success"
@@ -1445,18 +1502,27 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>2/4</span>
                             </div>
-                            <span className="text-small">Due 4 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 4 days</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="progress">
                           <div
                             className="progress-bar bg-warning"
@@ -1523,18 +1589,27 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>6/8</span>
                             </div>
-                            <span className="text-small">Due Tomorrow</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due Tomorrow</span>
                           </div>
                         </div>
                       </div>
-                      <div className="card card-kanban">
+                      <div className="card card-kanban"
+                      style={{
+                        backgroundColor: "#393B39"
+                      }}>
                         <div className="progress">
                           <div
                             className="progress-bar bg-danger"
@@ -1588,14 +1663,20 @@ class Board extends React.Component {
                               </a>
                             </li>
                           </ul>
-                          <div className="card-meta d-flex justify-content-between">
+                          <div className="card-meta d-flex justify-content-between"
+                           style={{
+                            color: "#d7e868"
+                          }}>
                             <div className="d-flex align-items-center">
                               <i className="material-icons">
                                 playlist_add_check
                               </i>
                               <span>2/10</span>
                             </div>
-                            <span className="text-small">Due 2 days</span>
+                            <span className="text-small"
+                            style={{
+                              color: "#d7e868"
+                            }}>Due 2 days</span>
                           </div>
                         </div>
                       </div>
@@ -1800,7 +1881,10 @@ class Board extends React.Component {
                             <i className="material-icons">playlist_add_check</i>
                             <span>3/7</span>
                           </div>
-                          <span>Due 14 days</span>
+                          <span 
+                          style={{
+                            color: "#d7e868"
+                          }}>Due 14 days</span>
                         </div>
                       </div>
                     </div>
@@ -3535,7 +3619,10 @@ class Board extends React.Component {
                                   />
                                 </div>
                                 <div className="form-group row align-items-center">
-                                  <label className="col-3">Due Date</label>
+                                  <label className="col-3"
+                                  style={{
+                                    color: "#d7e868"
+                                  }}>Due Date</label>
                                   <input
                                     className="form-control col"
                                     type="text"

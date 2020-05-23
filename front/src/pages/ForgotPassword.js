@@ -5,7 +5,7 @@ class ForgotPassword extends React.Component {
     return (
       <div className="layout layout-nav-top">
         <div className="navbar navbar-expand-lg sticky-top">
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
             <img
               alt="Logo"
               src="assets\\img\\cardBe.png"
@@ -23,7 +23,7 @@ class ForgotPassword extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav nav-fill" role="tablist">
-                <a className="nav-link" href="index.html">
+                <a className="nav-link" href="/">
                   Return
                 </a>
               </li>
@@ -31,7 +31,7 @@ class ForgotPassword extends React.Component {
           </div>
         </div>
         <div className="main-container fullscreen">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-xl-5 col-lg-6 col-md-7">
                 <div className="text-center">
@@ -55,7 +55,7 @@ class ForgotPassword extends React.Component {
                     </div>
                     <button
                       className="btn btn-lg btn-block btn-primary"
-                      role="button"
+                     
                       type="submit"
                       style={{
                         color: "#393B39",

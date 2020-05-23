@@ -93,14 +93,14 @@ class SignUp extends React.Component {
                         <span />
                       </span>
                       I agree all statements in{" "}
-                      <a href="terms.html" className="term-service">
+                      <a href="terms" className="term-service">
                         Terms of service
                       </a>
                     </label>
                   </div>
                   <div className="form-group form-button">
                     <a
-                      href="index.html"
+                      href="/"
                       type="submit"
                       name="signin"
                       id="signin"
@@ -108,7 +108,7 @@ class SignUp extends React.Component {
                     >
                       Register
                     </a>
-                    <a href="index.html" className="signup-image-link">
+                    <a href="/" className="signup-image-link">
                       I am already member
                     </a>
                   </div>
