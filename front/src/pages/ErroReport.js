@@ -1,6 +1,6 @@
 import React from "react";
 
-class CreateBoard extends React.Component {
+class ErroReport extends React.Component {
   render() {
     return (
       <div className="layout layout-nav-top">
@@ -26,7 +26,7 @@ class CreateBoard extends React.Component {
                 <a className="nav-link" href="Home.html">
                   Home
                 </a>
-                <a className="nav-link" href="error-report.html">
+                <a className="nav-link active" href="error-report.html">
                   Error Report
                 </a>
                 <a className="nav-link" href="about.html">
@@ -532,124 +532,27 @@ class CreateBoard extends React.Component {
         <div className="main-container">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-10 col-lg-11">
-                <form>
-                  <div className="form-group">
-                    <label
-                      htmlFor="exampleInputEmail1"
-                      style={{
-                        color: "#D7E868"
-                      }}
-                    >
-                      TITLE
-                    </label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      style={{
-                        backgroundColor: "#393B39",
-                        color: "#D7E868"
-                      }}
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label
-                      htmlFor="exampleInputEmail1"
-                      style={{
-                        color: "#D7E868"
-                      }}
-                    >
-                      DESCRIPTION
-                    </label>
-                    <textarea
-                      placeholder="Tell us a little about yourself"
-                      name="profile-bio"
-                      className="form-control"
-                      rows={4}
-                      style={{
-                        backgroundColor: "#393B39",
-                        color: "#D7E868"
-                      }}
-                      defaultValue={""}
-                    />
-                  </div>
-                </form>
-                <label
-                  htmlFor="exampleInputEmail1"
-                  style={{
-                    color: "#D7E868"
-                  }}
-                >
-                  BACKGROUND
-                </label>
-                <div className="row">
-                  <div className="col-xl-4 col-6">
-                    <div className="card mb-3">
-                      <a
-                        href="#"
-                        data-toggle="modal"
-                        data-target="#activity-modal"
-                      >
-                        <img
-                          alt="Imagem"
-                          className="card-img-top"
-                          src="assets\\img\\components\\imagem3.PNG"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-xl-4 col-6">
-                    <div className="card mb-3">
-                      <a
-                        href="#"
-                        data-toggle="modal"
-                        data-target="#avatar-modal"
-                      >
-                        <img
-                          alt="Avatar"
-                          className="card-img-top"
-                          src="assets\\img\\components\\imagem2.PNG"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="col-xl-4 col-6">
-                    <div className="card mb-3">
-                      <a
-                        href="#"
-                        data-toggle="modal"
-                        data-target="#avatar-list-modal"
-                      >
-                        <img
-                          alt="Avatar List"
-                          className="card-img-top"
-                          src="assets\\img\\components\\imagem3.PNG"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="form-group form-button">
-                    <button
-                      style={{
-                        backgroundColor: "#A5D5AB"
-                      }}
-                    >
-                      <a
-                        href="board.html"
-                        type="submit"
-                        name="signin"
-                        id="signin"
-                        className="form-submit"
-                        style={{
-                          backgroundColor: "#A5D5AB",
-                          color: "#393B39"
-                        }}
-                      >
-                        CREATE
-                      </a>
-                    </button>
+              <div className="col-lg-11 col-xl-10">
+                <div className="page-header">
+                  <h1
+                    style={{
+                      color: "#A5D5AB"
+                    }}
+                  >
+                    ERROR REPORT
+                  </h1>
+                  <h4
+                    style={{
+                      color: "#E8EFC3"
+                    }}
+                  >
+                    If you have any problem, please contact us and we will take
+                    a look in your situation:
+                  </h4>
+                  <p className="lead">Email: cardbe@email.com</p>
+                  <p className="lead">Phone: +351 XXX XXX XXX</p>
+                  <div className="d-flex align-items-center">
+                    <ul className="avatars"></ul>
                   </div>
                 </div>
               </div>
@@ -661,4 +564,4 @@ class CreateBoard extends React.Component {
   }
 }
 
-export default CreateBoard;
+export default ErroReport;

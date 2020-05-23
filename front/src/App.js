@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Login from './pages/Login';
+import SignIn from './pages/SignIn';
 import About from './pages/About';
 import AccountSettings from './pages/AccountSettings';
 import Board from './pages/Board';
 import CreateBoard from './pages/CreateBoard';
-import ErrorReport from './pages/ErrorReport';
+import ErroReport from './pages/ErroReport';
 import ForgotPassword from './pages/ForgotPassword';
 import Home from './pages/Home';
 import SignUp from './pages/SignUp';
@@ -18,12 +17,12 @@ function App() {
     <div>
         <Router>
             <Switch>
-                <Route exact path='/' component={Login}/>
+                <Route exact path='/' component={SignIn}/>
                 <Route path='/about' component={About}/>
                 <Route path='/account-settings' component={AccountSettings}/>
                 <Route path='/board' component={Board}/>
                 <Route path='/create-board' component={CreateBoard}/>
-                <Route path='/error-report' component={ErrorReport}/>
+                <Route path='/error-report' component={ErroReport}/>
                 <Route path='/forgot-password' component={ForgotPassword}/>
                 <Route path='/home' component={Home}/>
                 <Route path='/sing-up' component={SignUp}/>
