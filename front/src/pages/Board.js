@@ -4126,14 +4126,14 @@ class Board extends React.Component {
                 <div className="component-demo">
                   <form>
                     <div className="form-group">
-                      <label
-                        htmlFor="exampleInputEmail1"
+                      <p
+                    
                         style={{
                           color: "#343a40"
                         }}
                       >
                         TITLE
-                      </label>
+                      </p>
                       <input
                         type="email"
                         className="form-control"
@@ -4145,14 +4145,14 @@ class Board extends React.Component {
                       />
                     </div>
                     <div className="form-group">
-                      <label
-                        htmlFor="exampleInputPassword1"
-                        style={{
-                          color: "#343a40"
-                        }}
-                      >
-                        DESCRIPTION
-                      </label>
+                    <p
+                    
+                    style={{
+                      color: "#343a40"
+                    }}
+                  >
+                    DESCRIPTION
+                  </p>
                       <input
                         type="password"
                         className="form-control"
@@ -4344,14 +4344,14 @@ class Board extends React.Component {
                       </li>
                     </ul>
                     <div className="form-group">
-                      <label
-                        htmlFor="exampleInputPassword1"
-                        style={{
-                          color: "#343a40"
-                        }}
-                      >
-                        COMMENT
-                      </label>
+                    <p
+                    
+                    style={{
+                      color: "#343a40"
+                    }}
+                  >
+                    COMMENT
+                  </p>
                       <input
                         type="password"
                         className="form-control"

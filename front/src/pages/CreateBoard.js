@@ -5,7 +5,7 @@ class CreateBoard extends React.Component {
     return (
       <div className="layout layout-nav-top">
         <div className="navbar navbar-expand-lg sticky-top">
-          <a className="navbar-brand" href="home.html">
+          <a className="navbar-brand" href="home">
             <img
               alt="Logo"
               src="assets\\img\\cardBe.png"
@@ -23,13 +23,13 @@ class CreateBoard extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav nav-fill" role="tablist">
-                <a className="nav-link" href="Home.html">
+                <a className="nav-link" href="home">
                   Home
                 </a>
-                <a className="nav-link" href="error-report.html">
+                <a className="nav-link" href="error-report">
                   Error Report
                 </a>
-                <a className="nav-link" href="about.html">
+                <a className="nav-link" href="about">
                   About
                 </a>
               </li>
@@ -81,7 +81,7 @@ class CreateBoard extends React.Component {
                   Add New
                 </button>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="create-board.html">
+                  <a className="dropdown-item" href="create-board">
                     Board
                   </a>
                   <a
@@ -109,11 +109,11 @@ class CreateBoard extends React.Component {
                     />
                   </a>
                   <div className="dropdown-menu dropdown-menu-right">
-                    <a href="account-settings.html" className="dropdown-item">
+                    <a href="account-settings" className="dropdown-item">
                       Account Settings
                     </a>
                     <a
-                      href="index.html"
+                      href="/"
                       className="dropdown-item"
                       style={{
                         color: "rgb(219, 41, 41)"

@@ -17,7 +17,9 @@ class SignIn extends React.Component {
                     height={100}
                   />
                 </center>
-                <h3 className="form-subtitle">Get it real!</h3>
+                <h3 className="form-subtitle"style={{
+                            color: "#A5D5AB"
+                          }}>Get it real!</h3>
                 <form method="POST" className="register-form" id="login-form">
                   <div className="form-group">
                     <label htmlFor="email">
@@ -71,7 +73,10 @@ class SignIn extends React.Component {
                   Forgot Password?
                 </a>
                 <div className="social-login">
-                  <span className="social-label">New here?</span>
+                  <span className="social-label"
+                  style={{
+                    color: "#A5D5AB"
+                  }}>New here?</span>
                   <a href="signup" className="signup-image-link">
                     Create an account
                   </a>
